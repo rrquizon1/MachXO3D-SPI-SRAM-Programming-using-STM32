@@ -9,7 +9,7 @@ MachXO3D's compressed bitstream is still within the Raspberry Pi's buffer limit,
 In this implementation you can modify the array in data.c with your own bitstream.
 ![image](https://github.com/user-attachments/assets/cacc6500-35df-4601-bd66-c9bf474d655c)
 
-Compared to ice40 programming implementation using STM32F411, MAchXo3D SRAM programming needs a few more lines but still a lot more simple because of STM32 HAL drivers. See below for some built in functions used to implement the programming flow:
+Compared to ice40 programming implementation using STM32F411, MAchXO3D SRAM programming needs a few more lines but still a lot more simple because of STM32 HAL drivers. See below for some functions I used to implement the programming flow:
 ![image](https://github.com/user-attachments/assets/581a0122-385d-48e4-8b3d-9d7e4146b01f)
 
 Sample terminal run: 
