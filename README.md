@@ -4,8 +4,6 @@ This example uses STM32F411 using STM32 HAL SPI Drivers and GPIO control for CS 
 
 The instructions used in this program follows the guideline of FPGA-TN-02069-1.7(MachXO3D Programming and Configuration User Guide)
 
-MachXO3D's compressed bitstream is still within the Raspberry Pi's buffer limit, so we can send all the data in one call.
-
 In this implementation you can modify the array in data.c with your own bitstream.
 ![image](https://github.com/user-attachments/assets/cacc6500-35df-4601-bd66-c9bf474d655c)
 
